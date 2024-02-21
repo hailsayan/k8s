@@ -9,5 +9,4 @@ spec:
   ports:
   - port: 80
     targetPort: http
-    name: http
-  type: NodePort
+  clusterIP: None
